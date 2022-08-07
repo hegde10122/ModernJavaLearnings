@@ -19,6 +19,19 @@ public class PredicateFI {
 
         predicateChainingAnd(); //predicate chaining concept using AND
         predicateChainingOr(); //predicate chaining concept using OR
+        predicateNegate(); //predicate chaining concept using negate()
+
+    }
+
+    //use case 4 ---- we will test for negation predicate
+    private static void predicateNegate() {
+
+        //40 --- even but divisible by 5 --- one predicate fails --- hence output is false --
+        // but this result is negated -- final result is true
+        System.out.println("Chaining predicates NEGATE "+p1.and(p2).negate().test(40));
+
+        //45 --- odd and divisible by 5 also --- result true --- but due to negate() the final result is false
+        System.out.println("Chaining predicates NEGATE "+p1.or(p2).negate().test(45));
 
     }
 
@@ -42,5 +55,8 @@ public class PredicateFI {
         System.out.println("Chaining predicates OR "+p1.or(p2).test(32));
 
     }
+
+
+
 
 }

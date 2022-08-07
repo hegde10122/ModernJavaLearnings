@@ -23,7 +23,7 @@ Employee e2 = new Employee("Chand","Male",340000.89,
             Arrays.asList("running","cricket","pilates","soccer"),5436,"Chennai","IT");
 
     Employee e7 = new Employee("Pradeep","Male",671289.9,
-            Arrays.asList("running","reading","cycling"),1839,"Bhopal","Security");
+            Arrays.asList("running","reading","cycling"),1839,"Bangalore","Security");
     Employee e8 = new Employee("Tina","Female",33249.2,
             Arrays.asList("cooking","basketball","reading"),632,"Delhi","Medical");
 
