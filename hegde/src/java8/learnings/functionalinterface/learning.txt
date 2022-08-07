@@ -1,4 +1,17 @@
-Functional interface (SAM) or single abstract method interface has exactly one abstract method.
+Functional interface or single abstract method interface (SAM) has exactly one abstract method.
 
 @FunctionalInterface was the annotation introduced as a part of JDK 8.
 This is an optional annotation to signify a functional interface.
+
+The Functional interfaces below are available in the java.util.function package:
+
+1) Consumer --- accept an input and perform some operation on that input.
+2) BiConsumer
+3) Predicate
+4) BiPredicate
+5) Function
+6) BiFunction
+7) UnaryOperator
+8) BinaryOperator
+9) Supplier
+
