@@ -17,4 +17,4 @@ Now follow point (2) and the remaining as mentioned below.
 
 (2) **Now understand the functional interfaces**
 
-Click here Functional Interfaces ---> [learning.txt](https://github.com/hegde10122/ModernJavaLearnings/blob/master/hegde/src/java8/learnings/functionalinterfaces/learning.txt "Functional Interfaces")
+Click here Functional Interfaces ---> [learning.txt](https://github.com/hegde10122/ModernJavaLearnings/blob/master/hegde/src/java8/learnings/functionalinterface/learning.txt "Functional Interfaces")
