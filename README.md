@@ -19,7 +19,7 @@ Now follow point (2) and the remaining as mentioned below.
 I have created a new package for the [employee database](https://github.com/hegde10122/ModernJavaLearnings/blob/master/hegde/src/java8/learnings/casestudy "Case study")
 
 The package has two files - "Employee.java" which consists of employee details - name,gender,salary,hobbies,employee ID,address and
-department. I have generated getters and setters as well along with the constructor.
+department. I have generated getters and setters as well along with the constructor and toString() method.
 
 The "EmployeeDatabase.java" class consists of 8 employees objects and the method returns a list of these 8 objects as a list of
 employee objects. We will be using these two classes extensively in this case study to build functional interfaces examples
@@ -28,3 +28,5 @@ discussed in point (3) and beyond.
 (3) **Now understand the functional interfaces**
 
 Click here Functional Interfaces ---> [learning.txt](https://github.com/hegde10122/ModernJavaLearnings/blob/master/hegde/src/java8/learnings/functionalinterface/learning.txt "Functional Interfaces")
+
+There are 9 types of functional interfaces. Study them in the order defined above.
