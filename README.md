@@ -1,9 +1,9 @@
 # Java - Functional Programming
 
-This course will teach you Modern Java features like Lambdas,Functional Interfaces, Streams API, Optionals, Functional Interfaces,Date/Time libraries and Parallel Programming. This is a purely coding based case-study project. Enjoy programming with Modern Java!!
+This course will teach you Modern Java features like Lambdas,Functional Interfaces, Streams API, Optionals, Functional Interfaces,Date/Time libraries and Parallel Programming. This is **a purely coding based case-study project.** Enjoy programming with Modern Java!!
 
 
-Begin your learning journey of this case study project in this order below. I have mentioned every single Java package link here to assist your learning. Starting with point (1) below and till the end in that particular order mentioned for a smooth rude. Happy Learning!!
+Begin your learning journey of this case study project in this order below. I have mentioned every single Java package link here to assist your learning. Starting with point (1) below and till the end in that particular order mentioned for a smooth ride. Happy Learning!!
 
 (1) **Start with the lambda expressions first.** In every package folder you will find learning.txt file
 This file contains the gist of every concept distilled out for an easier grasp.
@@ -21,12 +21,11 @@ I have created a new package for the [employee database](https://github.com/hegd
 The package has two files - "Employee.java" which consists of employee details - name,gender,salary,hobbies,employee ID,address and
 department. I have generated getters and setters as well along with the constructor and toString() method.
 
-The "EmployeeDatabase.java" class consists of 8 employees objects and the method returns a list of these 8 objects as a list of
-employee objects. We will be using these two classes extensively in this case study to build functional interfaces examples
+The "EmployeeDatabase.java" class consists of 8 employee objects and the method returns a list of these 8 employee objects. We will be using these two classes extensively in this case study to build functional interfaces examples
 discussed in point (3) and beyond.
 
 (3) **Now understand the functional interfaces**
 
 Click here Functional Interfaces ---> [learning.txt](https://github.com/hegde10122/ModernJavaLearnings/blob/master/hegde/src/java8/learnings/functionalinterface/learning.txt "Functional Interfaces")
 
-There are 9 types of functional interfaces. Study them in the order defined above.
+There are 9 types of functional interfaces. Study them in the order defined above. The names of the java classes in the package are self-explanatory.
