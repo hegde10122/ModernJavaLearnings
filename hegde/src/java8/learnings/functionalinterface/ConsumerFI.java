@@ -9,6 +9,20 @@ import java.util.function.Consumer;
 //FI -- short form for Functional Interface
 public class ConsumerFI {
 
+    // get names of employees --- consumer defined
+   private static final Consumer<Employee> consumer = (employee -> {
+        System.out.println(employee.getName());
+    });
+
+    // get hobbies of employees --- consumer defined
+   private static final Consumer<Employee> consumer2 = (employee -> {
+        System.out.println(employee.getHobbies());
+    });
+
+    // get the list of employees from database
+  private static final List<Employee> employeeList = EmployeeDataBase.getAllEmployees();
+
+
     public static void main(String[] args) {
 
         //We are creating a consumer functional interface that accepts an integer input and prints twice of that integer
@@ -23,6 +37,26 @@ public class ConsumerFI {
         //use case 2
         displayNamesAndHobbies();
 
+        //use case 3
+        displayNamesFemalesSalary();
+
+    }
+
+
+/*
+* Display names and activities of all female employees whose salary exceeds 45000
+* */
+    private static void displayNamesFemalesSalary() {
+
+        System.out.println("displayNamesFemalesSalary() method use case");
+
+        employeeList.forEach( (emp) -> {
+            if( emp.getGender().equals("Female") && emp.getSalary()>45000.0) {
+                consumer.andThen(consumer2).accept((Employee) emp);
+            }
+        });
+
+
     }
 
     /*
@@ -30,20 +64,9 @@ public class ConsumerFI {
     * */
     private static void displayNamesAndHobbies() {
 
-        //Step 1: get names of employees
-        Consumer<Employee> consumer = (employee -> {
-            System.out.println(employee.getName());
-        });
+        System.out.println("displayNamesAndHobbies() method use case");
 
-        //step 2: get hobbies of employees
-        Consumer<Employee> consumer2 = (employee -> {
-            System.out.println(employee.getHobbies());
-        });
-
-        //step 3: get the list of employees from database
-        List employeeList = EmployeeDataBase.getAllEmployees();
-
-        //step 4: get names and hobbies using consumer chaining concept --- andThen method defined in the consumer interface helps us to solve this use case
+        //step 1: get names and hobbies using consumer chaining concept --- andThen method defined in the consumer interface helps us to solve this use case
         employeeList.forEach(consumer.andThen(consumer2));
 
     }
@@ -51,13 +74,9 @@ public class ConsumerFI {
     private static void displayNames(){
         //Use case ---- print names of all employees in the database using the Consumer Functional interface
 
-        //step 1:
-        List employeeList = EmployeeDataBase.getAllEmployees();
+        System.out.println("displayNames() method use case");
 
-        //step 2: define a consumer variable
-        Consumer<Employee> c1 = (emp) -> System.out.println(emp.getName());
-
-        //forEach method accepts a consumer interface
-        employeeList.forEach(c1);
+        //step 2: forEach method accepts a consumer interface
+        employeeList.forEach(consumer);
     }
 }
