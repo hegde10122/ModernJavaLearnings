@@ -15,6 +15,16 @@ The code is free of cost and you can re-use it without giving me any credit. Enj
 
 Now follow point (2) and the remaining as mentioned below.
 
-(2) **Now understand the functional interfaces**
+(2)
+I have created a new package for the [employee database](https://github.com/hegde10122/ModernJavaLearnings/blob/master/hegde/src/java8/learnings/casestudy "Case study")
+
+The package has two files - "Employee.java" which consists of employee details - name,gender,salary,hobbies,employee ID,address and
+department. I have generated getters and setters as well along with the constructor.
+
+The "EmployeeDatabase.java" class consists of 8 employees objects and the method returns a list of these 8 objects as a list of
+employee objects. We will be using these two classes extensively in this case study to build functional interfaces examples
+discussed in point (3) and beyond.
+
+(3) **Now understand the functional interfaces**
 
 Click here Functional Interfaces ---> [learning.txt](https://github.com/hegde10122/ModernJavaLearnings/blob/master/hegde/src/java8/learnings/functionalinterface/learning.txt "Functional Interfaces")

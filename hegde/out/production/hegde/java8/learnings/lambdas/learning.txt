@@ -1,0 +1,51 @@
+LAMBDA EXPRESSION
+------------------------------------------------
+
+1) Lambda is equivalent to a function (method) without a name.
+
+2) Lambdas are also referred to as Anonymous functions.
+
+3) They have : method parameters, method body and return type.
+
+4) Lambdas are not tied to any class like a regular method.
+
+5) Lambdas can also be assigned to variable and passed around.
+
+Syntax of Lambda expression
+---------------------------------------
+
+() -> {}
+
+() ----> Lambda input parameters
+->  -----> Arrow separator between input and output
+{} ------> Lambda body
+
+Usages of Lambda
+-------------------
+
+Lambda is mainly used to implement Functional interfaces or SAM (Single Abstract method) interfaces in Java 8 and above.
+
+() -> Single statement or Expression; //Curly braces not required
+() -> {Multiple statements}; //curly braces are required for multiple statements
+
+--------------------------------------------------------------------------------------------------
+Please refer to the code examples in the package (java8.learnings.lambdas) for lambda expressions.
+
+You need to refer to the code examples in this order for better clarity of the concepts:
+1) RunnableLambda.java
+2) ComparatorLambda.java
+
+
+@FunctionalInterface
+public interface Runnable{
+   public abstract void run();
+}
+
+
+@FunctionalInterface
+public interface Comparator<T>{
+    int compare(T o1,T o2);
+}
+
+
+
