@@ -1,3 +1,2 @@
-# JavaDemos
+# Java - Functional Programming
 
-data structures and algorithms using java - samples
