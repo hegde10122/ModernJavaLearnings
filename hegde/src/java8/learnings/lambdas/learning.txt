@@ -36,5 +36,16 @@ You need to refer to the code examples in this order for better clarity of the c
 2) ComparatorLambda.java
 
 
+@FunctionalInterface
+public interface Runnable{
+   public abstract void run();
+}
+
+
+@FunctionalInterface
+public interface Comparator<T>{
+    int compare(T o1,T o2);
+}
+
 
 
