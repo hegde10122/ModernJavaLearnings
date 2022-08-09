@@ -50,8 +50,11 @@ Problems --> [Streams API Problems](https://github.com/hegde10122/ModernJavaLear
 
 | Collections  | Streams |
 | ---------------------------------------- | -------------------------------------------- |
-|Can add or update elements|Cannot add or update elements in the stream.It is immutable data.|
+|Can add,delete or update elements|Cannot add,delete or update elements in the stream.It is immutable data.|
 |Example: List -> lists.add(elem)| NA |
 |Elements in the list can be accessed via the indices in any order | Only sequential access is possible for streams |
 |Example: lists.get(5);| NA |
 |Collection is eagerly constructed|Stream is lazily constructed|
+|The collection can be traversed any number of times|Streams can be traversed only once.|
+|Performs external iteration to iterate through the elements|Performs internal iteration to iterate through the elements|
+

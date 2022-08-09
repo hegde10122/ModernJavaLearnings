@@ -1,0 +1,18 @@
+Streams examples using following operations
+
+1) map() -- transforms all streams into a single value
+2) flatMap() -- merges all streams into a single list of values
+
+Flattening is the process of converting several lists of lists and
+merging all those lists to create a single list containing all the elements from all the lists.
+
+3) distinct() -- returns a stream with unique elements
+4) count() -- returns a long with the total number of elements in the stream
+5) sorted() -- sort the elements in the stream
+6) sorted() using Comparator - both ascending and descending
+7) filter() ---  returns certain elements of a stream that match a certain given predicate
+8) reduce() --- used to reduce contents of a stream to a single value
+
+Study the examples for all the above operations mentioned. I have created use cases in this particular order in the java classes
+MoreStreams.java and MoreStreams2.java
+
