@@ -45,7 +45,7 @@ Click here for streams api ---> [learning.txt](https://github.com/hegde10122/Mod
 
 Problems --> [Streams API Problems](https://github.com/hegde10122/ModernJavaLearnings/blob/master/hegde/src/java8/learnings/streams "Streams API")
 
-####DIFFERENCES between Collections and Streams
+#### DIFFERENCES between Collections and Streams
 ---------------------------------------------
 
 | Collections  | Streams |
