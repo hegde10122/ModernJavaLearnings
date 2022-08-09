@@ -21,11 +21,13 @@ public class MoreStreams2 {
 
     public static void main(String[] args) {
 
-        //System.out.println(reverseAddressStudents());
-      //  System.out.println(filteredEmployees());
-
+        //3 use cases here
+        System.out.println(reverseAddressStudents());
+        System.out.println(filteredEmployees());
         System.out.println(meanSalary());
+
     }
+
 
 
     //Use case 3 ---- get the mean of all salaries
