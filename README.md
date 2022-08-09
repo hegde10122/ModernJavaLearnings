@@ -48,8 +48,9 @@ Problems --> [Streams API Problems](https://github.com/hegde10122/ModernJavaLear
 DIFFERENCES between Collections and Streams
 ---------------------------------------------
 
+
 | Collections  | Streams |
-| ---- | ---- |
+| ---------------------------------------- | -------------------------------------------- |
 
 |Can add or update elements|Cannot add or update elements in the stream.It is immutable data.|
 |Example: List -> lists.add(elem)| ---- |
