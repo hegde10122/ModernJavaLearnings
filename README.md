@@ -53,7 +53,3 @@ DIFFERENCES between Collections and Streams
 | ---------------------------------------- | -------------------------------------------- |
 
 |Can add or update elements|Cannot add or update elements in the stream.It is immutable data.|
-|Example: List -> lists.add(elem)| ---- |
-|Elements in the list can be accessed via the indices in any order | Only sequential access is possible for streams |
-|Example: lists.get(5);| --- |
-|Collection is eagerly constructed|Stream is lazily constructed|
