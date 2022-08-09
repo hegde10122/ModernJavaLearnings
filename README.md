@@ -51,5 +51,4 @@ DIFFERENCES between Collections and Streams
 
 | Collections  | Streams |
 | ---------------------------------------- | -------------------------------------------- |
-
 |Can add or update elements|Cannot add or update elements in the stream.It is immutable data.|
