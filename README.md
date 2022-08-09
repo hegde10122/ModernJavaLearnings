@@ -38,3 +38,15 @@ PredicateConsumerCombo.java --> two excellent examples built on the logic of con
 Click here references ---> [learning.txt](https://github.com/hegde10122/ModernJavaLearnings/blob/master/hegde/src/java8/learnings/referenceslambdas/learning.txt "Method references")
 
 Click here for problems ---> [Problems](https://github.com/hegde10122/ModernJavaLearnings/blob/master/hegde/src/java8/learnings/referenceslambdas "Problems")
+
+(5) **Now it is time to turbo-charge with the Streams API**
+
+Click here for streams api ---> [learning.txt](https://github.com/hegde10122/ModernJavaLearnings/blob/master/hegde/src/java8/learnings/streams/learning.txt "Streams API")
+
+Problems --> [Streams API Problems](https://github.com/hegde10122/ModernJavaLearnings/blob/master/hegde/src/java8/learnings/streams "Streams API")
+
+DIFFERENCES between Collections and Streams
+---------------------------------------------
+
+|Collections  | Streams |
+|--------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
