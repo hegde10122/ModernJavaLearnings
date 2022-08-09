@@ -36,3 +36,5 @@ PredicateConsumerCombo.java --> two excellent examples built on the logic of con
 (4) **After functional interfaces, it is time to learn method references and local variables for lambdas**
 
 Click here references ---> [learning.txt](https://github.com/hegde10122/ModernJavaLearnings/blob/master/hegde/src/java8/learnings/referenceslambdas/learning.txt "Method references")
+
+Click here for problems ---> [Problems](https://github.com/hegde10122/ModernJavaLearnings/blob/master/hegde/src/java8/learnings/referenceslambdas "Problems")
