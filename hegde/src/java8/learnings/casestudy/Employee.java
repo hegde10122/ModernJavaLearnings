@@ -37,6 +37,10 @@ public class Employee {
                 '}';
     }
 
+    public void printHobbies(){
+        System.out.println(hobbies);
+    }
+
     public String getName() {
         return name;
     }

@@ -31,3 +31,8 @@ Click here Functional Interfaces ---> [learning.txt](https://github.com/hegde101
 There are 9 types of functional interfaces. Study them in the order defined above. The names of the java classes in the package are self-explanatory.
 
 PredicateConsumerCombo.java --> two excellent examples built on the logic of consumer,biconsumer and predicate. Read this after Consumer,biconsumer and predicate. You will have feel better if you can solve these two problems. I promise elation if you can crack them!!
+
+
+(4) **After functional interfaces, it is time to learn method references and local variables for lambdas**
+
+Click here references ---> [learning.txt](https://github.com/hegde10122/ModernJavaLearnings/blob/master/hegde/src/java8/learnings/referenceslambdas/learning.txt "Method references")

@@ -1,0 +1,23 @@
+Method references --- It is a nicer way to write functional interfaces.
+We can refer a method in a class.
+
+Syntax of Method Reference
+
+1)
+Class :: methodName
+
+2)
+Class :: static_methodName
+
+3)
+Instance (of the class) :: methodName
+
+Method reference can be used when lambda refers to a method directly.
+
+Example: We have the following Function functional interface.
+Function<String,String> toLowerCase = (input) -> input.toLowerCase();
+
+We can use method reference to shorten the syntax.
+Function<String,String> toLowerCase = String::toLowerCase();
+
+
