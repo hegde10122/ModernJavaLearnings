@@ -11,10 +11,11 @@ public class Employee {
     private int employeeID;
     private String address;
     private String department;
+    private int heightCms;
 
     public Employee(String name, String gender, Double salary,
                     List<String> hobbies, int employeeID,
-                    String address, String department) {
+                    String address, String department, int heightCms) {
         this.name = name;
         this.gender = gender;
         this.salary = salary;
@@ -22,6 +23,15 @@ public class Employee {
         this.employeeID = employeeID;
         this.address = address;
         this.department = department;
+        this.heightCms = heightCms;
+    }
+
+    public int getHeightCms() {
+        return heightCms;
+    }
+
+    public void setHeightCms(int heightCms) {
+        this.heightCms = heightCms;
     }
 
     @Override
@@ -34,6 +44,7 @@ public class Employee {
                 ", employeeID=" + employeeID +
                 ", address='" + address + '\'' +
                 ", department='" + department + '\'' +
+                ", heightCms=" + heightCms +
                 '}';
     }
 

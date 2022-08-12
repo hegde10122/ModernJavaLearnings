@@ -13,7 +13,7 @@ public class SupplierFI {
 
         //Supplier is just opposite to the Consumer. Supplier returns some output but does not take any output.
         Supplier<Employee> supplier =  () -> new Employee("Bhavani","Female",140000.9, Arrays.asList("golf","scuba diving","knitting"),
-             834,"Jammu","Chemicals");
+             834,"Jammu","Chemicals", 146);
 
         System.out.println("Employee is "+supplier.get());
 

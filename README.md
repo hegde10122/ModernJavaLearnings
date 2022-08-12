@@ -45,6 +45,8 @@ Click here for streams api ---> [learning.txt](https://github.com/hegde10122/Mod
 
 Problems --> [Streams API Problems](https://github.com/hegde10122/ModernJavaLearnings/blob/master/hegde/src/java8/learnings/streams "Streams API")
 
+
+
 #### DIFFERENCES between Collections and Streams
 ---------------------------------------------
 
@@ -57,4 +59,16 @@ Problems --> [Streams API Problems](https://github.com/hegde10122/ModernJavaLear
 |Collection is eagerly constructed|Stream is lazily constructed|
 |The collection can be traversed any number of times|Streams can be traversed only once.|
 |Performs external iteration to iterate through the elements|Performs internal iteration to iterate through the elements|
+
+6) **The Streams API ends with some other utility functions**
+
+Click here for more streams api ---> [learning.txt](https://github.com/hegde10122/ModernJavaLearnings/blob/master/hegde/src/java8/learnings/streamexamples/learning.txt "Streams API")
+
+Problems --> [Streams API utilities](https://github.com/hegde10122/ModernJavaLearnings/blob/master/hegde/src/java8/learnings/streamexamples "Streams API Utilities")
+
+7) TO BE DONE --- findAny() findFirst()
+
+7**Numeric Streams** -- 3 problems to learn
+
+8) **Terminal operations** --- 7 problems to learn
 

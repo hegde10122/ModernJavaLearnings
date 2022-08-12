@@ -12,7 +12,21 @@ merging all those lists to create a single list containing all the elements from
 6) sorted() using Comparator - both ascending and descending
 7) filter() ---  returns certain elements of a stream that match a certain given predicate
 8) reduce() --- used to reduce contents of a stream to a single value
+9) limit(X) --- limits the "X" number of elements to be processed in the stream.
+10) skip(X) --- skips the "X" number of elements from the stream.
+11) anyMatch() --- returns true if any one of the item in the stream matches the predicate or else returns false.
+12) allMatch() --- returns true if all the items in the stream match the predicate or else returns false.
+13) noneMatch() --- returns true if none of the items in the stream match the predicate or else returns false.
+14) generate() and iterate() --- generate streams
 
 Study the examples for all the above operations mentioned. I have created use cases in this particular order in the java classes
 MoreStreams.java and MoreStreams2.java
+
+MapFilterReducePattern.java --- Very important --- read this and understand well
+
+From (9) onwards, read the StreamUtilities.java class for all details explained in a lucid manner.
+
+Then read through NumericStreams and its various examples.
+After that understand the examples in TerminalOperations class.
+
 
