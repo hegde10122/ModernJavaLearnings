@@ -72,3 +72,4 @@ Problems --> [Streams API utilities](https://github.com/hegde10122/ModernJavaLea
 
 8) **Terminal operations** --- 7 problems to learn
 
+9) **GroupingByExamples**
