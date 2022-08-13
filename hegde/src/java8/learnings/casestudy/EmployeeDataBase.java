@@ -2,10 +2,11 @@ package java8.learnings.casestudy;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Supplier;
 
 public class EmployeeDataBase {
 
-public static List getAllEmployees(){
+public static List<Employee> getAllEmployees(){
 
 Employee e1 = new Employee("Anant","Male",120000.55,
         Arrays.asList("swimming","cooking","movies"),123,"Mumbai","Accounts", 163);
@@ -31,6 +32,9 @@ Employee e2 = new Employee("Chand","Male",340000.89,
             Arrays.asList("dancing","singing","reading"),904,"Hyderabad","Marketing", 189);
 
     return Arrays.asList(e1,e2,e3,e4,e5,e6,e7,e8,e9);
-
 }
+
+public static Supplier<Employee> employeeSupplier = () -> new Employee("Bala","Male",820000.4,
+        Arrays.asList("reeading","cooking","gardening"),498,"Bhopal","Telecom",169);
+
 }

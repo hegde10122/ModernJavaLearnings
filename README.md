@@ -66,8 +66,6 @@ Click here for more streams api ---> [learning.txt](https://github.com/hegde1012
 
 Problems --> [Streams API utilities](https://github.com/hegde10122/ModernJavaLearnings/blob/master/hegde/src/java8/learnings/streamexamples "Streams API Utilities")
 
-7) TO BE DONE --- findAny() findFirst()
-
 7**Numeric Streams** -- 3 problems to learn
 
 8) **Terminal operations** --- 7 problems to learn
@@ -79,3 +77,9 @@ Problems --> [Streams API utilities](https://github.com/hegde10122/ModernJavaLea
 Click here for more parallel streams ---> [learning.txt](https://github.com/hegde10122/ModernJavaLearnings/blob/master/hegde/src/java8/learnings/parallelstreams/learning.txt "Parallel Streams")
 
 Problems --> [Parallel Streams](https://github.com/hegde10122/ModernJavaLearnings/blob/master/hegde/src/java8/learnings/parallelstreams "Parallel Streams")
+
+11) **Optional**
+
+Click here for Optional ---> [learning.txt](https://github.com/hegde10122/ModernJavaLearnings/blob/master/hegde/src/java8/learnings/optional/learning.txt "Optional")
+
+Problems --> [Optional](https://github.com/hegde10122/ModernJavaLearnings/blob/master/hegde/src/java8/learnings/optional "Optional")

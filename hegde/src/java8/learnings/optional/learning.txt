@@ -1,0 +1,5 @@
+Optional
+------------------
+
+Has been introduced to represent non-null values
+Avoid null pointer exception and unnecessary null checks
