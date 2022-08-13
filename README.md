@@ -72,4 +72,10 @@ Problems --> [Streams API utilities](https://github.com/hegde10122/ModernJavaLea
 
 8) **Terminal operations** --- 7 problems to learn
 
-9) **GroupingByExamples**
+9) **GroupingByExamples** -- 6 problems to learn here
+
+10) **Parallel streams**
+
+Click here for more parallel streams ---> [learning.txt](https://github.com/hegde10122/ModernJavaLearnings/blob/master/hegde/src/java8/learnings/parallelstreams/learning.txt "Parallel Streams")
+
+Problems --> [Parallel Streams](https://github.com/hegde10122/ModernJavaLearnings/blob/master/hegde/src/java8/learnings/parallelstreams "Parallel Streams")

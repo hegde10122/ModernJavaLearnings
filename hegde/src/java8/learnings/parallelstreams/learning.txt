@@ -1,0 +1,7 @@
+
+Parallel Streams
+----------------
+
+1) Splits the source of data into multiple parts
+2) Process them in parallel
+3) Combine the result
