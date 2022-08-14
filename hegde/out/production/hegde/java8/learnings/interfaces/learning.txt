@@ -1,0 +1,35 @@
+DEFAULT AND STATIC METHOS IN INTERFACES
+
+-------------------------------------------------
+
+Interface defines a contract.
+
+Prior to Java 8 ----
+
+Interfaces Only allowed to declare the method.
+Interfaces not allowed to implement a method in interface.
+Implementation allowed only in the implementation class.
+Not easy for an interface to evolve because addition of new methods meant that the existing implementing classes would break
+due to compile-time errors.
+
+To resolve the above issues Java 8 introduced static and default interfaces.
+
+Default Interface
+-----------------
+
+default keyword is used to identify a default method in an interface.
+
+For example:
+-----------
+
+default void replaceAll(UnaryOperator<E> operator) {
+        Objects.requireNonNull(operator);
+        final ListIterator<E> li = this.listIterator();
+        while (li.hasNext()) {
+            li.set(operator.apply(li.next()));
+        }
+    }
+
+This is the "replaceAll" method with the default keyword from the List interface.
+
+

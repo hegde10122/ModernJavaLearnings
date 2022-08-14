@@ -24,7 +24,7 @@ public class Optionals {
         System.out.println(ofNullable(null)); //Optional.empty is returned for null input values
 
         System.out.println(of("Android programming"));
-       // System.out.println(of(null)); //Crash due to null pointer exception
+        System.out.println(of(null)); //Crash due to null pointer exception
 
         System.out.println(orElse(EmployeeDataBase.employeeSupplier.get()));
         System.out.println(orElse(null));
@@ -33,7 +33,7 @@ public class Optionals {
         System.out.println(orElseGet(null));
 
         System.out.println(orElseThrow(EmployeeDataBase.employeeSupplier.get()));
-       // System.out.println(orElseThrow(null)); //throws runtimeexception here
+        System.out.println(orElseThrow(null)); //throws runtimeexception here
 
          findFirst();
          findAny();

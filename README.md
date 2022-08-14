@@ -83,3 +83,11 @@ Problems --> [Parallel Streams](https://github.com/hegde10122/ModernJavaLearning
 Click here for Optional ---> [learning.txt](https://github.com/hegde10122/ModernJavaLearnings/blob/master/hegde/src/java8/learnings/optional/learning.txt "Optional")
 
 Problems --> [Optional](https://github.com/hegde10122/ModernJavaLearnings/blob/master/hegde/src/java8/learnings/optional "Optional")
+
+12) **Interfaces -- default and static methods**
+
+Problems --> [Interfaces](https://github.com/hegde10122/ModernJavaLearnings/blob/master/hegde/src/java8/learnings/interfaces "Interfaces")
+
+We will first implement the default method "sort" in the List interface and learn comparator chaining examples.
+
+Follow the Method examples.java to learn the sort() and comparator chaining examples.
