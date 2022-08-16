@@ -19,7 +19,7 @@ public class DateConverter {
         LocalDate localDate = date.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
         System.out.println(localDate);
 
-        Date date1 = new Date().from(localDate.atTime(LocalTime.now()).atZone(ZoneId.systemDefault()).toInstant());
+        Date date1 = Date.from(localDate.atTime(LocalTime.now()).atZone(ZoneId.systemDefault()).toInstant());
         System.out.println(date1);
 
         //java.sql.date to local date and vice-versa
